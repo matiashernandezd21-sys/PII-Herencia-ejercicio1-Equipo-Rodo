@@ -5,9 +5,6 @@
         static void Main(string[] args)
         {
             /*
-            En éste método deberas mostrar un ejemplo de funcionamiento de tu programa. A continuación te
-            planteamos un ejemplo de como hacerlo. Esto no significa que te limites a hacer solamente esto, debes pensar
-            en grande!
 
             Usuario pasajero1 = nuevo Pasajero()
             Usuario pasajero2 = nuevo Pasajero()
