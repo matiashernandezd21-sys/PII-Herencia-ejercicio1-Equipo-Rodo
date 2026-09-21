@@ -6,6 +6,7 @@ namespace Ucu.Poo.RideShare
         public string LastName { get; set; }
         public string Cedula { get; set; }
         public double Rating { get; set; }
+        public string image = @"../../../jane.jpg";
 
         public User(string name, string lastName, string cedula, double rating)
         {

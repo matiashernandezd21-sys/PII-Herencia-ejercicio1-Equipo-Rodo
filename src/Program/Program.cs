@@ -1,9 +1,12 @@
-﻿namespace Ucu.Poo.RideShare
+﻿using Ucu.Poo.Cognitive;
+
+namespace Ucu.Poo.RideShare
 {
     class Program
     {
         static void Main(string[] args)
         {
+            
             User pasajero1 = new Passenger("Jose", "Perez", "12345678", "Tarjeta de crédito", 4.5);
             User pasajero2 = new Passenger("Maria", "Gomez", "87654321", "Efectivo", 4.0);
             User pasajero3 = new Passenger("Carlos", "Rodriguez", "11223344", "Transferencia bancaria", 4.8);
