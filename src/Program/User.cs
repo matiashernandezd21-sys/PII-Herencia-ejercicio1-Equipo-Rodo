@@ -2,17 +2,17 @@ namespace Ucu.Poo.RideShare
 {
     public class User
     {
-        public string Nombre { get; set; }
-        public string Apellido { get; set; }
+        public string Name { get; set; }
+        public string LastName { get; set; }
         public string Cedula { get; set; }
-        public double Calificacion { get; set; }
+        public double Rating { get; set; }
 
-        public User(string nombre, string apellido, string cedula, double calificacion)
+        public User(string name, string lastName, string cedula, double rating)
         {
-            Nombre = nombre;
-            Apellido = apellido;
+            Name = name;
+            LastName = lastName;
             Cedula = cedula;
-            Calificacion = calificacion;
+            Rating = rating;
         }
     }
 }
