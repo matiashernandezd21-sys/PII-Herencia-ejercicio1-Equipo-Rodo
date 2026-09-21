@@ -2,8 +2,8 @@ namespace Ucu.Poo.RideShare
 {
     public class RegularDriver : Driver
     {
-        public RegularDriver(string name, string lastName, string id, Car car, string bio) 
-            : base(name, lastName, id, car, bio)
+        public RegularDriver(string name, string lastName, string cedula, Car car, string bio, double rating) 
+            : base(name, lastName, cedula, car, bio, rating)
         {
         }
 

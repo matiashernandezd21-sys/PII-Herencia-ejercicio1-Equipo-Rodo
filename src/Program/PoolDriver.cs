@@ -7,8 +7,8 @@ namespace Ucu.Poo.RideShare
         public int MaxPassengers { get; set; }
         public List<Passenger> Passengers { get; private set; }
 
-        public PoolDriver(string name, string lastName, string id, Car car, string bio, int maxPassengers) 
-            : base(name, lastName, id, car, bio)
+        public PoolDriver(string name, string lastName, string id, Car car, string bio, double rating, int maxPassengers) 
+            : base(name, lastName, id, car, bio, rating)
         {
             this.MaxPassengers = maxPassengers;
             this.Passengers = new List<Passenger>();
