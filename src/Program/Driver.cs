@@ -3,16 +3,16 @@ using System.Runtime.CompilerServices;
 
 namespace Ucu.Poo.RideShare
 {
-    public class Driver
+    public class Driver : User
     {
         public Car Car { get; set; }
         public String Bio { get; set; }
 
-        public Driver (Car car, string bio)
+        public Driver (string name, string lastName, string cedula, Car car, string bio, double rating)
+            : base (name, lastName, cedula, rating)
         {
-            Car = car;
-            
-            Bio = bio;
+            this.Car = car;
+            this.Bio = bio;
         }
     }
 }

@@ -4,8 +4,8 @@ namespace Ucu.Poo.RideShare
     {
         public string PaymentMethod { get; set; }
 
-        public Passenger(string name, string lastName, string id, string paymentMethod) 
-            : base(name, lastName, id)
+        public Passenger(string name, string lastName, string cedula, string paymentMethod, double rating) 
+            : base(name, lastName, cedula, rating)
         {
             this.PaymentMethod = paymentMethod;
         }
