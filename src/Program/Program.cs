@@ -1,6 +1,4 @@
-﻿using Ucu.Poo.Cognitive;
-
-namespace Ucu.Poo.RideShare
+﻿namespace Ucu.Poo.RideShare
 {
     class Program
     {
